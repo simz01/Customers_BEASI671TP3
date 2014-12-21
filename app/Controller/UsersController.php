@@ -89,6 +89,7 @@ class UsersController extends AppController {
 		$this->render('_form');
 	}
 
+        
 	public function edit($id = null) {
 
 		# If its not an admin, he will edit his own profile only
@@ -125,7 +126,7 @@ class UsersController extends AppController {
 		}
 		$this->set('label', 'Edit user');
 		$this->render('_form');
-	}
+        }
 
 	public function delete($id = null) {
 		if (AuthComponent::user('role') != 'admin') {

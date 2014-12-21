@@ -1,5 +1,5 @@
 <div class="customers form">
-<?php echo $this->Form->create('Customer'); ?>
+<?php echo $this->Form->create('Customer', array('type'=>'file')); ?>
 	<fieldset>
 		<legend><?php echo __('Add Customer'); ?></legend>
 	<?php
@@ -9,7 +9,21 @@
 		echo $this->Form->input('Adress');
 		echo $this->Form->input('PaymentInformation');
 	?>
-	</fieldset>
+	<?php if (!empty($this->data['Customer']['filepath'])): ?>
+                <div class="input">
+                        <label>Uploaded File</label>
+                        <?php
+                        echo $this->Form->input('filepath', array('type'=>'hidden'));
+                        echo $this->Html->link(basename($this->data['Customer']['filepath']), $this->data['Customer']['filepath']);
+                        ?>
+                </div>
+        <?php else: ?>
+        <?php echo $this->Form->input('filename',array(
+                'type' => 'file'
+        )); ?>
+        <?php endif; ?>
+ 
+        </fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
 </div>
 <div class="actions">

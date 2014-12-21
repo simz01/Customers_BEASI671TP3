@@ -6,6 +6,7 @@
 			<th><?php echo $this->Paginator->sort('customer_name'); ?></th>
 			<th><?php echo $this->Paginator->sort('customer_phone'); ?></th>
 			<th><?php echo $this->Paginator->sort('customer_email'); ?></th>
+                        <th><?php echo $this->Paginator->sort('filename'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	</thead>
@@ -15,6 +16,7 @@
 		<td><?php echo h($customer['Customer']['customer_name']); ?>&nbsp;</td>
 		<td><?php echo h($customer['Customer']['customer_phone']); ?>&nbsp;</td>
 		<td><?php echo h($customer['Customer']['customer_email']); ?>&nbsp;</td>
+                <td><img src='<?php echo h($customer['Customer']['filename']); ?>'  height="56" width="56"></td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $customer['Customer']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $customer['Customer']['id'])); ?>

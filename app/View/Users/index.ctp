@@ -17,7 +17,7 @@
           <th>#</th>
           <th><?php echo __('Username') ?></th>
           <th><?php echo __('Role') ?></th>
-          <th>#</th>
+          <th class="actions"><?php echo __('Actions'); ?></th>
         </tr>
       </thead>
       <tbody>
@@ -61,7 +61,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo __('Cancel') ?></button>
-        <?php echo $this->Html->link(__('Delete'),'/users/delete/#{uid}',array('class' => 'btn btn-danger delete-user-link')) ?>
+        <?php echo $this->Html->link(__('Delete'),'/users/delete/'.$user['User']['id'],array('class' => 'btn btn-danger delete-user-link')) ?>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->

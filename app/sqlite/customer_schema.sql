@@ -1,13 +1,13 @@
 
 CREATE TABLE adresses (
   id INTEGER PRIMARY KEY ASC,
-  line_1_number_building TEXT,
+  line_1_number_building VARCHAR,
   line_2_number_street INTEGER,
-  line_3_area_locality TEXT,
-  city TEXT,
-  zip_postcode TEXT,
-  state_province_county TEXT,
-  iso_country_code TEXT,
+  line_3_area_locality VARCHAR,
+  city VARCHAR,
+  zip_postcode VARCHAR,
+  state_province_county VARCHAR,
+  iso_country_code VARCHAR,
   other_adress_details TEXT
 );
 
@@ -18,9 +18,9 @@ CREATE TABLE adresses (
 
 CREATE TABLE customers (
 id INTEGER PRIMARY KEY ASC,
-  customer_name TEXT,
-  customer_phone TEXT,
-  customer_email TEXT
+  customer_name VARCHAR,
+  customer_phone VARCHAR,
+  customer_email VARCHAR
 ); 
 
 
@@ -50,10 +50,10 @@ id INTEGER PRIMARY KEY ASC,
 
 CREATE TABLE payment_informations (
 id INTEGER PRIMARY KEY ASC,
-  payment_method TEXT,
-  card_number TEXT,
-  date_of_expiry TEXT,
-  security_number TEXT,
+  payment_method VARCHAR,
+  card_number VARCHAR,
+  date_of_expiry VARCHAR,
+  security_number VARCHAR,
   other_details TEXT
 );
 
@@ -64,14 +64,15 @@ id INTEGER PRIMARY KEY ASC,
 
 CREATE TABLE users (
 id INTEGER PRIMARY KEY ASC,
-  username TEXT,
-  password TEXT,
-  email TEXT,
-  name TEXT,
-  role TEXT,
-  hash_change_password TEXT,
-  created TEXT,
-  modified TEXT
+  username VARCHAR,
+  password VARCHAR,
+  email VARCHAR,
+  name VARCHAR,
+  role VARCHAR,
+  hash_change_password VARCHAR,
+  created VARCHAR,
+  modified VARCHAR
+  avatar VARCHAR
 ); 
 
 INSERT INTO `users` (`id`, `username`, `password`, `email`, `name`, `role`, `hash_change_password`, `created`, `modified`) VALUES

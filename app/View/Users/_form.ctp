@@ -25,7 +25,9 @@
             'options' => array('admin' => __('Admin'), 'author' => __('Author')),
             'selected' => !empty( $user['role'] ) ? $user['role'] : ''));?>
 	      <?php }?>
+    
       
         <?php echo $this->Form->end(__("Submit"));?>
+        
   </div>
 </div>

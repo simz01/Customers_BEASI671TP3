@@ -16,6 +16,11 @@
 			<?php echo h($customer['Customer']['customer_email']); ?>
 			&nbsp;
 		</dd>
+                <dt><?php echo __('File Name'); ?></dt>
+		<dd>
+			<img src='../../<?php echo ($customer['Customer']['filename']); ?>'  height="128" width="128">
+			&nbsp;
+		</dd>
 	</dl>
 </div>
 <div class="actions">

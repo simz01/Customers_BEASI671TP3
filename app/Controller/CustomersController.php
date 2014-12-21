@@ -57,6 +57,10 @@ class CustomersController extends AppController {
 				$this->Session->setFlash(__('The customer has been saved.'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
+                            // check if file has been uploaded, if so get the file path
+                            if (!empty($this->Customer->data['Customer']['filepath']) && is_string($this->Customer->data['Customer']['filepath'])) {
+                            $this->request->data['Customer']['filepath'] = $this->Customer->data['Customer']['filepath'];
+                            }
 				$this->Session->setFlash(__('The customer could not be saved. Please, try again.'));
 			}
 		}
