@@ -33,3 +33,4 @@ app/webroot/files/fotos/1384816708394156941567510041.jpg
 .idea/codeStyleSettings.xml
 !/vendors/
 !/plugins/
+/app/sqlite/Default.sqlite
