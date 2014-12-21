@@ -1,0 +1,1078 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-11-03 05:18+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AdressesController.php:37;71;98;128;162;189
+msgid "Invalid adress"
+msgstr ""
+
+#: Controller/AdressesController.php:52;75;143;166
+msgid "The adress has been saved."
+msgstr ""
+
+#: Controller/AdressesController.php:55;78;146;169
+msgid "The adress could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AdressesController.php:102;193
+msgid "The adress has been deleted."
+msgstr ""
+
+#: Controller/AdressesController.php:104;195
+msgid "The adress could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CustomersController.php:36;71;99;129;164;192
+msgid "Invalid customer"
+msgstr ""
+
+#: Controller/CustomersController.php:51;75;144;168
+msgid "The customer has been saved."
+msgstr ""
+
+#: Controller/CustomersController.php:54;78;147;171
+msgid "The customer could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CustomersController.php:103;196
+msgid "The customer has been deleted."
+msgstr ""
+
+#: Controller/CustomersController.php:105;198
+msgid "The customer could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PaymentInformationsController.php:37;71;98;128;162;189
+msgid "Invalid payment information"
+msgstr ""
+
+#: Controller/PaymentInformationsController.php:52;75;143;166
+msgid "The payment information has been saved."
+msgstr ""
+
+#: Controller/PaymentInformationsController.php:55;78;146;169
+msgid "The payment information could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PaymentInformationsController.php:102;193
+msgid "The payment information has been deleted."
+msgstr ""
+
+#: Controller/PaymentInformationsController.php:104;195
+msgid "The payment information could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:42
+#: Model/User.php:70
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Controller/UsersController.php:66;102;138
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:81;117
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:120
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:145
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:149
+msgid "User was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:176
+msgid "Invalid action"
+msgstr ""
+
+#: Controller/UsersController.php:219
+msgid "Remember password - "
+msgstr ""
+
+#: Controller/UsersController.php:239
+msgid "Link invalid"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:46
+msgid "Already Installed"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:61
+msgid "Installation: Welcome"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:75
+msgid "Step 1: Database"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:87;162
+msgid "File database.php created successfully."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:102
+msgid "Step 2: Build database"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:109
+msgid "Warning: Database \"%s\" is not empty."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:115
+msgid "Structure of the database successfully created."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:154
+msgid "Step 4: Config"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:158
+msgid "File config.php created successfully."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:177
+msgid "Installation successful"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:211
+msgid "Could not write database.php file."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:220
+msgid "Could not connect to database: "
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:225
+msgid "Could not connect to database."
+msgstr ""
+
+#: Plugin/Install/View/Install/adminuser.ctp:7
+msgid "Step 3: Create Admin User"
+msgstr ""
+
+#: Plugin/Install/View/Install/adminuser.ctp:16
+#: Plugin/Install/View/Install/config.ctp:16
+msgid "Save"
+msgstr ""
+
+#: Plugin/Install/View/Install/config.ctp:3
+msgid "Step 4: Create Config"
+msgstr ""
+
+#: Plugin/Install/View/Install/config.ctp:9
+msgid "Digite as palavras separadas por virgula ex: CakeStrap,CakePhp"
+msgstr ""
+
+#: Plugin/Install/View/Install/data.ctp:3
+msgid "Create tables"
+msgstr ""
+
+#: Plugin/Install/View/Install/data.ctp:8
+#: Plugin/Install/View/Install/finish.ctp:13
+msgid "Build database"
+msgstr ""
+
+#: Plugin/Install/View/Install/database.ctp:24
+#: Plugin/i18n/View/Translations/admin_edit_multi.ctp:22
+#: View/Adresses/add.ctp:17
+#: View/Adresses/admin_add.ctp:17
+#: View/Adresses/admin_edit.ctp:18
+#: View/Adresses/edit.ctp:18
+#: View/Customers/add.ctp:13
+#: View/Customers/admin_add.ctp:13
+#: View/Customers/admin_edit.ctp:14
+#: View/Customers/edit.ctp:14
+#: View/Elements/form_users.ctp:20
+#: View/PaymentInformations/add.ctp:14
+#: View/PaymentInformations/admin_add.ctp:14
+#: View/PaymentInformations/admin_edit.ctp:15
+#: View/PaymentInformations/edit.ctp:15
+#: View/Users/_form.ctp:29
+msgid "Submit"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:4
+msgid "The user %s has been created with administrative rights.<br>"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:6
+msgid "Visit their website: %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:11
+msgid "Check for restrictions"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:12
+msgid "Create Database file"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:14
+msgid "Create the initial user system"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:15
+msgid "Create the configuration file"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:16
+msgid "Visit their website"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:8
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:11
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:16
+msgid "Your config directory is writable."
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:19
+msgid "Your config directory is NOT writable."
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:27
+msgid "PHP version %s %s %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:30
+msgid "PHP version %s < %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:38
+msgid "CakePhp version %s %s %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:41
+msgid "CakePHP version %s < %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:48
+msgid "Install"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:50
+msgid "Installation cannot continue as minimum requirements are not met."
+msgstr ""
+
+#: Plugin/Install/View/Layouts/default.ctp:6
+msgid "CakeStrap"
+msgstr ""
+
+#: Plugin/i18n/Controller/TranslationsController.php:146
+msgid "The translation has been saved"
+msgstr ""
+
+#: Plugin/i18n/Controller/TranslationsController.php:167;190
+msgid "Translation saved"
+msgstr ""
+
+#: Plugin/i18n/Controller/TranslationsController.php:210
+msgid "Translation deleted"
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:112
+msgid "Could not save the translation, please check your inputs."
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:134;171;215;237
+msgid "Invalid Translation"
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:255
+msgid "You need to confirm to delete this Translation"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_add.ctp:4
+msgid "Admin Add Translation"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_add.ctp:17
+#: Plugin/i18n/View/Translations/admin_edit.ctp:19
+#: Plugin/i18n/View/Translations/admin_edit_multi.ctp:26
+#: Plugin/i18n/View/Translations/admin_view.ctp:40
+msgid "List Translations"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:1
+msgid "Delete Translation \"%s\"?"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:3
+msgid "Be aware that your Translation and all associated data will be deleted if you confirm!"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:11
+msgid "Confirm"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:13
+msgid "You have to confirm."
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:14
+msgid "Continue"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_edit.ctp:4
+#: Plugin/i18n/View/Translations/admin_edit_multi.ctp:4
+msgid "Admin Edit Translation"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_edit.ctp:18
+#: Plugin/i18n/View/Translations/admin_index.ctp:70
+#: View/Adresses/admin_edit.ctp:24
+#: View/Adresses/admin_index.ctp:33
+#: View/Adresses/admin_view.ctp:82
+#: View/Adresses/edit.ctp:24
+#: View/Adresses/index.ctp:31
+#: View/Adresses/view.ctp:74
+#: View/Customers/admin_edit.ctp:20
+#: View/Customers/admin_index.ctp:23
+#: View/Customers/admin_view.ctp:69;106
+#: View/Customers/edit.ctp:20
+#: View/Customers/index.ctp:21
+#: View/Customers/view.ctp:60;95
+#: View/PaymentInformations/admin_edit.ctp:21
+#: View/PaymentInformations/admin_index.ctp:27
+#: View/PaymentInformations/admin_view.ctp:67
+#: View/PaymentInformations/edit.ctp:21
+#: View/PaymentInformations/index.ctp:25
+#: View/PaymentInformations/view.ctp:59
+#: View/Users/index.ctp:33;64
+msgid "Delete"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:2
+msgid "Translations"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:6
+#: View/Adresses/admin_index.ctp:42
+#: View/Adresses/index.ctp:40
+#: View/Customers/admin_index.ctp:32
+#: View/Customers/index.ctp:30
+#: View/PaymentInformations/admin_index.ctp:36
+#: View/PaymentInformations/index.ctp:34
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:17
+msgid "Locale Name"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:20
+msgid "Model Name"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:23
+#: Plugin/i18n/View/Translations/admin_view.ctp:24
+msgid "Field"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:26
+#: Plugin/i18n/View/Translations/admin_view.ctp:29
+msgid "Content"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:28
+msgid "Search"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:40
+#: View/Adresses/add.ctp:20
+#: View/Adresses/admin_add.ctp:20
+#: View/Adresses/admin_edit.ctp:21
+#: View/Adresses/admin_index.ctp:15;54
+#: View/Adresses/admin_view.ctp:52;71
+#: View/Adresses/edit.ctp:21
+#: View/Adresses/index.ctp:14;52
+#: View/Adresses/view.ctp:47;64
+#: View/Customers/add.ctp:16
+#: View/Customers/admin_add.ctp:16
+#: View/Customers/admin_edit.ctp:17
+#: View/Customers/admin_index.ctp:10;44
+#: View/Customers/admin_view.ctp:27;53;93
+#: View/Customers/edit.ctp:17
+#: View/Customers/index.ctp:9;42
+#: View/Customers/view.ctp:22;45;83
+#: View/PaymentInformations/add.ctp:17
+#: View/PaymentInformations/admin_add.ctp:17
+#: View/PaymentInformations/admin_edit.ctp:18
+#: View/PaymentInformations/admin_index.ctp:12;48
+#: View/PaymentInformations/admin_view.ctp:37;56
+#: View/PaymentInformations/edit.ctp:18
+#: View/PaymentInformations/index.ctp:11;46
+#: View/PaymentInformations/view.ctp:32;49
+msgid "Actions"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:67
+#: View/Adresses/admin_index.ctp:31
+#: View/Adresses/admin_view.ctp:80
+#: View/Adresses/index.ctp:29
+#: View/Adresses/view.ctp:72
+#: View/Customers/admin_index.ctp:21
+#: View/Customers/admin_view.ctp:67;104
+#: View/Customers/index.ctp:19
+#: View/Customers/view.ctp:58;93
+#: View/PaymentInformations/admin_index.ctp:25
+#: View/PaymentInformations/admin_view.ctp:65
+#: View/PaymentInformations/index.ctp:23
+#: View/PaymentInformations/view.ctp:57
+#: View/Users/index.ctp:30
+msgid "View"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:68
+#: View/Adresses/admin_index.ctp:32
+#: View/Adresses/admin_view.ctp:81
+#: View/Adresses/index.ctp:30
+#: View/Adresses/view.ctp:73
+#: View/Customers/admin_index.ctp:22
+#: View/Customers/admin_view.ctp:68;105
+#: View/Customers/index.ctp:20
+#: View/Customers/view.ctp:59;94
+#: View/PaymentInformations/admin_index.ctp:26
+#: View/PaymentInformations/admin_view.ctp:66
+#: View/PaymentInformations/index.ctp:24
+#: View/PaymentInformations/view.ctp:58
+#: View/Users/index.ctp:31
+msgid "Edit"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:69
+msgid "Edit All locales for this entry"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:80
+#: Plugin/i18n/View/Translations/admin_view.ctp:41
+msgid "New Translation"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:2
+msgid "Translation"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:4
+#: View/Adresses/admin_view.ctp:4;67
+#: View/Customers/admin_view.ctp:4;44;87
+#: View/PaymentInformations/admin_view.ctp:4;52
+msgid "Id"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:9
+msgid "Locale"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:14
+msgid "Model"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:19
+msgid "Foreign Key"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:38
+msgid "Edit Translation"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:39
+msgid "Delete Translation"
+msgstr ""
+
+#: View/Adresses/add.ctp:4
+msgid "Add Adress"
+msgstr ""
+
+#: View/Adresses/add.ctp:23
+#: View/Adresses/admin_add.ctp:23
+#: View/Adresses/admin_edit.ctp:25
+#: View/Adresses/admin_view.ctp:56
+#: View/Adresses/edit.ctp:25
+#: View/Adresses/view.ctp:52
+#: View/Customers/add.ctp:20
+#: View/Customers/admin_add.ctp:20
+#: View/Customers/admin_edit.ctp:22
+#: View/Customers/admin_index.ctp:47
+#: View/Customers/admin_view.ctp:33
+#: View/Customers/edit.ctp:22
+#: View/Customers/view.ctp:28
+msgid "List Adresses"
+msgstr ""
+
+#: View/Adresses/add.ctp:24
+#: View/Adresses/admin_add.ctp:24
+#: View/Adresses/admin_edit.ctp:26
+#: View/Adresses/admin_index.ctp:57
+#: View/Adresses/admin_view.ctp:58
+#: View/Adresses/edit.ctp:26
+#: View/Adresses/view.ctp:53
+#: View/Customers/add.ctp:19
+#: View/Customers/admin_add.ctp:19
+#: View/Customers/admin_edit.ctp:21
+#: View/Customers/admin_view.ctp:31
+#: View/Customers/edit.ctp:21
+#: View/Customers/view.ctp:27
+#: View/PaymentInformations/add.ctp:21
+#: View/PaymentInformations/admin_add.ctp:21
+#: View/PaymentInformations/admin_edit.ctp:23
+#: View/PaymentInformations/admin_index.ctp:51
+#: View/PaymentInformations/admin_view.ctp:43
+#: View/PaymentInformations/edit.ctp:23
+#: View/PaymentInformations/view.ctp:38
+msgid "List Customers"
+msgstr ""
+
+#: View/Adresses/add.ctp:25
+#: View/Adresses/admin_add.ctp:25
+#: View/Adresses/admin_edit.ctp:27
+#: View/Adresses/admin_index.ctp:58
+#: View/Adresses/admin_view.ctp:59;91
+#: View/Adresses/edit.ctp:27
+#: View/Adresses/view.ctp:83
+#: View/Customers/admin_index.ctp:46
+#: View/Customers/admin_view.ctp:32
+#: View/Customers/index.ctp:44
+#: View/Customers/view.ctp:26
+#: View/PaymentInformations/add.ctp:22
+#: View/PaymentInformations/admin_add.ctp:22
+#: View/PaymentInformations/admin_edit.ctp:24
+#: View/PaymentInformations/admin_index.ctp:52
+#: View/PaymentInformations/admin_view.ctp:44;76
+#: View/PaymentInformations/edit.ctp:24
+#: View/PaymentInformations/view.ctp:68
+msgid "New Customer"
+msgstr ""
+
+#: View/Adresses/admin_add.ctp:4
+msgid "Admin Add Adress"
+msgstr ""
+
+#: View/Adresses/admin_edit.ctp:4
+msgid "Admin Edit Adress"
+msgstr ""
+
+#: View/Adresses/admin_edit.ctp:24
+#: View/Adresses/admin_index.ctp:33
+#: View/Adresses/admin_view.ctp:55;82
+#: View/Adresses/edit.ctp:24
+#: View/Adresses/index.ctp:31
+#: View/Adresses/view.ctp:50;74
+#: View/Customers/admin_edit.ctp:20
+#: View/Customers/admin_index.ctp:23
+#: View/Customers/admin_view.ctp:30;69;106
+#: View/Customers/edit.ctp:20
+#: View/Customers/index.ctp:21
+#: View/Customers/view.ctp:25;60;95
+#: View/PaymentInformations/admin_edit.ctp:21
+#: View/PaymentInformations/admin_index.ctp:27
+#: View/PaymentInformations/admin_view.ctp:40;67
+#: View/PaymentInformations/edit.ctp:21
+#: View/PaymentInformations/index.ctp:25
+#: View/PaymentInformations/view.ctp:35;59
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Adresses/admin_index.ctp:2
+#: View/Adresses/index.ctp:2
+#: View/Elements/nav.ctp:35
+msgid "Adresses"
+msgstr ""
+
+#: View/Adresses/admin_index.ctp:47
+#: View/Adresses/index.ctp:45
+#: View/Customers/admin_index.ctp:37
+#: View/Customers/index.ctp:35
+#: View/PaymentInformations/admin_index.ctp:41
+#: View/PaymentInformations/index.ctp:39
+msgid "previous"
+msgstr ""
+
+#: View/Adresses/admin_index.ctp:49
+#: View/Adresses/index.ctp:47
+#: View/Customers/admin_index.ctp:39
+#: View/Customers/index.ctp:37
+#: View/PaymentInformations/admin_index.ctp:43
+#: View/PaymentInformations/index.ctp:41
+msgid "next"
+msgstr ""
+
+#: View/Adresses/admin_index.ctp:56
+#: View/Adresses/admin_view.ctp:57
+#: View/Adresses/index.ctp:54
+#: View/Adresses/view.ctp:51
+#: View/Customers/add.ctp:21
+#: View/Customers/admin_add.ctp:21
+#: View/Customers/admin_edit.ctp:23
+#: View/Customers/admin_index.ctp:48
+#: View/Customers/admin_view.ctp:34;78
+#: View/Customers/edit.ctp:23
+#: View/Customers/view.ctp:69
+msgid "New Adress"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:2
+#: View/Adresses/view.ctp:2
+msgid "Adress"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:9
+#: View/Adresses/view.ctp:4
+#: View/Customers/admin_view.ctp:45
+#: View/Customers/view.ctp:37
+msgid "Line 1 Number Building"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:14
+#: View/Adresses/view.ctp:9
+#: View/Customers/admin_view.ctp:46
+#: View/Customers/view.ctp:38
+msgid "Line 2 Number Street"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:19
+#: View/Adresses/view.ctp:14
+#: View/Customers/admin_view.ctp:47
+#: View/Customers/view.ctp:39
+msgid "Line 3 Area Locality"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:24
+#: View/Adresses/view.ctp:19
+#: View/Customers/admin_view.ctp:48
+#: View/Customers/view.ctp:40
+msgid "City"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:29
+#: View/Adresses/view.ctp:24
+#: View/Customers/admin_view.ctp:49
+#: View/Customers/view.ctp:41
+msgid "Zip Postcode"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:34
+#: View/Adresses/view.ctp:29
+#: View/Customers/admin_view.ctp:50
+#: View/Customers/view.ctp:42
+msgid "State Province County"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:39
+#: View/Adresses/view.ctp:34
+#: View/Customers/admin_view.ctp:51
+#: View/Customers/view.ctp:43
+msgid "Iso Country Code"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:44
+#: View/Adresses/view.ctp:39
+#: View/Customers/admin_view.ctp:52
+#: View/Customers/view.ctp:44
+msgid "Other Adress Details"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:54
+#: View/Adresses/edit.ctp:4
+#: View/Adresses/view.ctp:49
+msgid "Edit Adress"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:55
+#: View/Adresses/view.ctp:50
+msgid "Delete Adress"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:63
+#: View/Adresses/view.ctp:57
+#: View/PaymentInformations/admin_view.ctp:48
+#: View/PaymentInformations/view.ctp:42
+msgid "Related Customers"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:68
+#: View/Adresses/view.ctp:61
+#: View/Customers/admin_view.ctp:9
+#: View/Customers/view.ctp:4
+#: View/PaymentInformations/admin_view.ctp:53
+#: View/PaymentInformations/view.ctp:46
+msgid "Customer Name"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:69
+#: View/Adresses/view.ctp:62
+#: View/Customers/admin_view.ctp:14
+#: View/Customers/view.ctp:9
+#: View/PaymentInformations/admin_view.ctp:54
+#: View/PaymentInformations/view.ctp:47
+msgid "Customer Phone"
+msgstr ""
+
+#: View/Adresses/admin_view.ctp:70
+#: View/Adresses/view.ctp:63
+#: View/Customers/admin_view.ctp:19
+#: View/Customers/view.ctp:14
+#: View/PaymentInformations/admin_view.ctp:55
+#: View/PaymentInformations/view.ctp:48
+msgid "Customer Email"
+msgstr ""
+
+#: View/Customers/add.ctp:4
+msgid "Add Customer"
+msgstr ""
+
+#: View/Customers/add.ctp:22
+#: View/Customers/admin_add.ctp:22
+#: View/Customers/admin_edit.ctp:24
+#: View/Customers/admin_index.ctp:49
+#: View/Customers/admin_view.ctp:35
+#: View/Customers/edit.ctp:24
+#: View/Customers/view.ctp:29
+#: View/PaymentInformations/add.ctp:20
+#: View/PaymentInformations/admin_add.ctp:20
+#: View/PaymentInformations/admin_edit.ctp:22
+#: View/PaymentInformations/admin_view.ctp:41
+#: View/PaymentInformations/edit.ctp:22
+#: View/PaymentInformations/view.ctp:37
+msgid "List Payment Informations"
+msgstr ""
+
+#: View/Customers/add.ctp:23
+#: View/Customers/admin_add.ctp:23
+#: View/Customers/admin_edit.ctp:25
+#: View/Customers/admin_index.ctp:50
+#: View/Customers/admin_view.ctp:36;115
+#: View/Customers/edit.ctp:25
+#: View/Customers/view.ctp:104
+#: View/PaymentInformations/admin_index.ctp:50
+#: View/PaymentInformations/admin_view.ctp:42
+#: View/PaymentInformations/index.ctp:48
+#: View/PaymentInformations/view.ctp:36
+msgid "New Payment Information"
+msgstr ""
+
+#: View/Customers/admin_add.ctp:4
+msgid "Admin Add Customer"
+msgstr ""
+
+#: View/Customers/admin_edit.ctp:4
+msgid "Admin Edit Customer"
+msgstr ""
+
+#: View/Customers/admin_index.ctp:2
+#: View/Customers/index.ctp:2
+#: View/Elements/nav.ctp:43
+msgid "Customers"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:2
+#: View/Customers/view.ctp:2
+msgid "Customer"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:29
+#: View/Customers/edit.ctp:4
+#: View/Customers/view.ctp:24
+msgid "Edit Customer"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:30
+#: View/Customers/view.ctp:25
+msgid "Delete Customer"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:40
+#: View/Customers/view.ctp:33
+msgid "Related Adresses"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:83
+#: View/Customers/view.ctp:74
+msgid "Related Payment Informations"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:88
+#: View/Customers/view.ctp:78
+#: View/PaymentInformations/admin_view.ctp:9
+#: View/PaymentInformations/view.ctp:4
+msgid "Payment Method"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:89
+#: View/Customers/view.ctp:79
+#: View/PaymentInformations/admin_view.ctp:14
+#: View/PaymentInformations/view.ctp:9
+msgid "Card Number"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:90
+#: View/Customers/view.ctp:80
+#: View/PaymentInformations/admin_view.ctp:19
+#: View/PaymentInformations/view.ctp:14
+msgid "Date Of Expiry"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:91
+#: View/Customers/view.ctp:81
+#: View/PaymentInformations/admin_view.ctp:24
+#: View/PaymentInformations/view.ctp:19
+msgid "Security Number"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:92
+#: View/Customers/view.ctp:82
+#: View/PaymentInformations/admin_view.ctp:29
+#: View/PaymentInformations/view.ctp:24
+msgid "Other Details"
+msgstr ""
+
+#: View/Elements/form_login.ctp:12
+#: View/Elements/form_users.ctp:8
+#: View/Users/_form.ctp:14
+msgid "Email"
+msgstr ""
+
+#: View/Elements/form_login.ctp:13
+#: View/Elements/form_users.ctp:12
+#: View/Users/_form.ctp:18
+msgid "Password"
+msgstr ""
+
+#: View/Elements/form_login.ctp:15
+msgid "Create a new account"
+msgstr ""
+
+#: View/Elements/form_login.ctp:16
+#: View/Users/remember_password.ctp:7
+msgid "Forgot your password?"
+msgstr ""
+
+#: View/Elements/form_login.ctp:20
+msgid "Remember me"
+msgstr ""
+
+#: View/Elements/form_login.ctp:23
+msgid "Login"
+msgstr ""
+
+#: View/Elements/form_users.ctp:4
+#: View/Users/_form.ctp:10
+#: View/Users/index.ctp:18
+msgid "Username"
+msgstr ""
+
+#: View/Elements/form_users.ctp:16
+#: View/Users/_form.ctp:24
+#: View/Users/index.ctp:19
+msgid "Role"
+msgstr ""
+
+#: View/Elements/form_users.ctp:17
+#: View/Users/_form.ctp:25
+msgid "Admin"
+msgstr ""
+
+#: View/Elements/form_users.ctp:17
+#: View/Users/_form.ctp:25
+msgid "Author"
+msgstr ""
+
+#: View/Elements/nav.ctp:27
+#: View/Users/index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Elements/nav.ctp:31
+msgid "Register new user"
+msgstr ""
+
+#: View/Elements/nav.ctp:39
+msgid "Add new adress"
+msgstr ""
+
+#: View/Elements/nav.ctp:47
+msgid "Add new customer"
+msgstr ""
+
+#: View/Elements/nav.ctp:51
+msgid "Payment information"
+msgstr ""
+
+#: View/Elements/nav.ctp:55
+msgid "Add new payment info"
+msgstr ""
+
+#: View/Elements/nav.ctp:71
+msgid "Profile"
+msgstr ""
+
+#: View/Elements/nav.ctp:72
+msgid "Settings"
+msgstr ""
+
+#: View/Elements/nav.ctp:73
+msgid "Log Out"
+msgstr ""
+
+#: View/Elements/nav.ctp:84
+msgid "Languages"
+msgstr ""
+
+#: View/Emails/html/remember_password.ctp:3
+msgid "Register new password"
+msgstr ""
+
+#: View/PaymentInformations/add.ctp:4
+msgid "Add Payment Information"
+msgstr ""
+
+#: View/PaymentInformations/admin_add.ctp:4
+msgid "Admin Add Payment Information"
+msgstr ""
+
+#: View/PaymentInformations/admin_edit.ctp:4
+msgid "Admin Edit Payment Information"
+msgstr ""
+
+#: View/PaymentInformations/admin_index.ctp:2
+#: View/PaymentInformations/index.ctp:2
+msgid "Payment Informations"
+msgstr ""
+
+#: View/PaymentInformations/admin_view.ctp:2
+#: View/PaymentInformations/view.ctp:2
+msgid "Payment Information"
+msgstr ""
+
+#: View/PaymentInformations/admin_view.ctp:39
+#: View/PaymentInformations/edit.ctp:4
+#: View/PaymentInformations/view.ctp:34
+msgid "Edit Payment Information"
+msgstr ""
+
+#: View/PaymentInformations/admin_view.ctp:40
+#: View/PaymentInformations/view.ctp:35
+msgid "Delete Payment Information"
+msgstr ""
+
+#: View/Users/change_password.ctp:3
+msgid "Change password"
+msgstr ""
+
+#: View/Users/change_password.ctp:11
+msgid "New password"
+msgstr ""
+
+#: View/Users/change_password.ctp:12
+msgid "Confirm new password"
+msgstr ""
+
+#: View/Users/change_password.ctp:13
+msgid "Change my password"
+msgstr ""
+
+#: View/Users/index.ctp:4
+#: View/Users/register.ctp:2
+msgid "Add User"
+msgstr ""
+
+#: View/Users/index.ctp:57
+msgid "Remove user"
+msgstr ""
+
+#: View/Users/index.ctp:60
+msgid "Are you sure you want to delete the user "
+msgstr ""
+
+#: View/Users/index.ctp:63
+msgid "Cancel"
+msgstr ""
+
+#: View/Users/remember_password.ctp:9
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n\t\ttempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: View/Users/remember_password.ctp:12
+msgid "E-mail"
+msgstr ""
+
+#: View/Users/remember_password.ctp:13
+msgid "Email address"
+msgstr ""
+
+#: View/Users/remember_password.ctp:15
+msgid "Next step"
+msgstr ""
+
+#: Model/Adress.php:validation for field line_1_number_building;validation for field line_3_area_locality;validation for field city;validation for field zip_postcode;validation for field state_province_county;validation for field iso_country_code;validation for field other_adress_details
+#: Model/Customer.php:validation for field customer_name;validation for field customer_phone;validation for field customer_email
+#: Model/PaymentInformation.php:validation for field payment_method;validation for field card_number;validation for field security_number;validation for field other_details
+msgid "notempty"
+msgstr ""
+
+#: Model/Adress.php:validation for field line_2_number_street
+msgid "numeric"
+msgstr ""
+
+#: Model/PaymentInformation.php:validation for field date_of_expiry
+msgid "date"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "A username is required."
+msgstr ""
+
+#: Model/User.php:validation for field username;validation for field email
+msgid "This user already exists."
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Invalid email."
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "A password is required"
+msgstr ""
+
+#: Model/User.php:validation for field role
+msgid "Please enter a valid role"
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:validation for field locale
+msgid "Please enter a Locale"
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:validation for field model
+msgid "Please enter a Model"
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:validation for field foreign_key
+msgid "Please enter a Foreign Key"
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:validation for field field
+msgid "Please enter a Field"
+msgstr ""
+

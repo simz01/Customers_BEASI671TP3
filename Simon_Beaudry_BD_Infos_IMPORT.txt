@@ -1,0 +1,10 @@
+Instruction pour importer une base de données sauvegardé dans un fichier .sql
+
+1. lancer phpMyAdmin ( a partir de WAMPS ou AMPPS ou Uniform Server) .
+2. Ensuite, cliquer sur le bouton importer situer dans la barre d'outils en haut de la page.
+3. Ensuite, cliquer sur le bouton "Choose file" puis selectionner le fichier customers_schema-db_2014-11-03.sql qui se situe dans le dossier BD qui est a la racine du site web,  puis  ensuite cliquer sur "EXECUTE".
+4. IMPORTANT ****  **** Le mot de passe dans la table users pour se connecter en tant qu'administrateur sur le site & voir toutes les options est : user : admin@admin.com, password : admin     ****************
+Pour tester les 3 cas d'utilisateurs :
+admin@admin.com // admin -> droits sur tous.
+author@author.com // author -> peut creer,modifier dans tous les tables. Ne peut pas supprimer
+visiteur@visiteur.com // visiteur -> peut seulement voir les onglets adresses & clients pas celui des paiements. Aucun access aux CRUD.

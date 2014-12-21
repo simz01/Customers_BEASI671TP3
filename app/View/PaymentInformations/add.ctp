@@ -1,0 +1,24 @@
+<div class="paymentInformations form">
+<?php echo $this->Form->create('PaymentInformation'); ?>
+	<fieldset>
+		<legend><?php echo __('Add Payment Information'); ?></legend>
+	<?php
+		echo $this->Form->input('payment_method');
+		echo $this->Form->input('card_number');
+		echo $this->Form->input('date_of_expiry');
+		echo $this->Form->input('security_number');
+		echo $this->Form->input('other_details');
+		echo $this->Form->input('Customer');
+	?>
+	</fieldset>
+<?php echo $this->Form->end(__('Submit')); ?>
+</div>
+<div class="actions">
+	<h3><?php echo __('Actions'); ?></h3>
+	<ul>
+		<li><?php echo $this->Html->link(__('List Adresses'), array('controller' => 'adresses', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Adress'), array('controller' => 'adresses', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Customers'), array('controller' => 'customers', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Customer'), array('controller' => 'customers', 'action' => 'add')); ?> </li>
+	</ul>
+</div>
