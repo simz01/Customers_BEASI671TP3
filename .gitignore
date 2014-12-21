@@ -1,7 +1,5 @@
 # User specific & automatically generated files #
 #################################################
-/app/Config/database.php
-/app/Config/config.php
 /app/tmp
 app/tmp/*
 /lib/Cake/Console/Templates/skel/tmp/
@@ -33,3 +31,5 @@ app/webroot/files/fotos/1384816708394156941567510041.jpg
 
 
 .idea/codeStyleSettings.xml
+!/vendors/
+!/plugins/
