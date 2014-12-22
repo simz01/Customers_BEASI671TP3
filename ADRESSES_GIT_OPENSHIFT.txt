@@ -1,0 +1,9 @@
+https://github.com/simz01/Customers_BEASI671TP3
+http://customers-beasi671tp3.rhcloud.com/
+
+
+TROIS UTILISATEURS + POSSIBILITE DE CREER AVEC CONFIRMATION EMAIL : 
+
+admin@admin.com : admin
+auteur@auteur.com : auteur
+visiteur@visiteur.com : visiteur
