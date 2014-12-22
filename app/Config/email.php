@@ -66,8 +66,8 @@ class EmailConfig {
   public $gmail = array(
     'host' => 'ssl://smtp.gmail.com',
     'port' => 465,
-    'username' => 'your@gmail.com',
-    'password' => 'password',
+    'username' => 'reception.nourrisource@gmail.com',
+    'password' => 'nourrisource$69',
     'transport' => 'Smtp'
     );
 

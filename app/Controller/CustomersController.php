@@ -12,7 +12,7 @@ class CustomersController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator');
+	public $components = array('Paginator', 'RequestHandler');
 
 /**
  * index method
@@ -51,6 +51,12 @@ class CustomersController extends AppController {
 	if (AuthComponent::user('role') != 'admin' && AuthComponent::user('role') != 'author' ) {
 			throw new ForbiddenException("You're not allowed to do this. Only admins & authors");
 		}
+                  if ($this->request->is('ajax')) {
+            $term = $this->request->query('term');
+            $customerNames = $this->Customer->getCustomerNamesNames($term);
+         $this->set(compact('customerNames'));
+         $this->set('_serialize', 'customerNames');
+         }
 		if ($this->request->is('post')) {
 			$this->Customer->create();
 			if ($this->Customer->save($this->request->data)) {
@@ -83,6 +89,12 @@ class CustomersController extends AppController {
 		if (!$this->Customer->exists($id)) {
 			throw new NotFoundException(__('Invalid customer'));
 		}
+                if ($this->request->is('ajax')) {
+                    $term = $this->request->query('term');
+                    $customerNames = $this->Customer->getCustomerNamesNames($term);
+                    $this->set(compact('customerNames'));
+                    $this->set('_serialize', 'customerNames');
+                }
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->Customer->save($this->request->data)) {
 				$this->Session->setFlash(__('The customer has been saved.'));

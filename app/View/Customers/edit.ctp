@@ -1,10 +1,18 @@
-<div class="customers form">
+<div class="customers form">    <?php
+    //let's load jquery libs from google
+  $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', array('inline' => false));
+  $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js', array('inline' => false));
+
+  //load file for this view to work on 'autocomplete' field
+  $this->Html->script('View/Customers/edit/', array('inline' => false));
+  ?>
 <?php echo $this->Form->create('Customer'); ?>
 	<fieldset>
 		<legend><?php echo __('Edit Customer'); ?></legend>
 	<?php
 		echo $this->Form->input('id');
-		echo $this->Form->input('customer_name');
+		echo $this->Form->input('customer_name',array('class' => 'ui-autocomplete',
+               'id' => 'autocomplete'));
 		echo $this->Form->input('customer_phone');
 		echo $this->Form->input('customer_email');
 		echo $this->Form->input('Adress');

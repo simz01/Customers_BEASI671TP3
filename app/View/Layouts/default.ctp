@@ -7,18 +7,23 @@
 <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]-->
+    
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title><?php echo $title_for_layout; ?> - <?php echo Configure::read('Application.name') ?></title>
+	<title>
+            <?php echo $title_for_layout; ?> - <?php echo Configure::read('Application.name') ?></title>
+        
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 
 	<?php echo $this->Html->css(array('bootstrap.min', 'font-awesome/css/font-awesome.min', 'sb-admin', 'style')); ?>
 	<?php echo $this->CakeStrap->automaticCss(); ?>
 	<?php echo $this->Html->script('lib/modernizr') ?>
+        
 </head>
 <body class="<?php echo $this->params->params['controller'].'_'.$this->params->params['action']?>">
+    
 <!--[if lt IE 7]>
 <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser
 	today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better
@@ -29,7 +34,7 @@
 <div id="wrapper">
 
 	<?php echo $this->element('nav')?>
-
+        
 	<div id="page-wrapper">
 
 		<?php echo $this->Session->flash(); ?>
@@ -59,5 +64,15 @@
 		s.parentNode.insertBefore(g, s)
 	}(document, 'script'));
 </script>
+<?php echo $this->element('sql_dump'); ?>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <!-- scripts_for_layout -->
+<?php echo $scripts_for_layout; ?>
+        <!-- Js writeBuffer -->
+        <?php
+        if (class_exists('JsHelper') && method_exists($this->Js, 'writeBuffer'))
+            echo $this->Js->writeBuffer();
+// Writes cached scripts
+        ?>
 </body>
 </html>

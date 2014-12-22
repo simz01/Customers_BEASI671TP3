@@ -72,12 +72,22 @@ class UsersController extends AppController {
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->User->create();
-
+                         $d = $this->request->data;
 			if ($this->User->save($this->request->data)) {
 				if( AuthComponent::user('id') ) {
 					# Store log
 					CakeLog::info('The user '.AuthComponent::user('username').' (ID: '.AuthComponent::user('id').') registered user (ID: '.$this->User->id.')','users');
-				}
+                                        $link = array('controller'=>'users','action'=>'activate',$this->User->id.'-'.(Security::hash($d['User']['password'],'sha1',true))); 
+                                        App::uses('CakeEmail','Network/Email');
+                                        $mail = new CakeEmail('gmail');
+                                        $mail->from("reception.nourrisource@gmail.com")
+                                            ->to($d['User']['email'])
+                                            ->subject(('TP3 :: Inscription '))
+                                            ->emailFormat('html')
+                                            ->template('signup')
+                                            ->viewVars(array('username' => $d['User']['username'], 'link' => $link))
+                                            ->send();    
+                                }
 				$this->Session->setFlash(__('The user has been saved'), 'flash_success');
 				$this->redirect('/home');
 			} else {
@@ -114,7 +124,7 @@ class UsersController extends AppController {
 			if ($this->User->save($this->request->data)) {
 				# Store log
 				CakeLog::info('The user '.AuthComponent::user('username').' (ID: '.AuthComponent::user('id').') edited user (ID: '.$this->User->id.')','users');
-
+                                  
 				$this->Session->setFlash(__('The user has been saved'), 'flash_success');
 				$this->redirect(array('action' => 'index'));
 			} else {
@@ -250,7 +260,34 @@ class UsersController extends AppController {
 
 	public function profile(){
 	}
+        
+        public function emailsignup_confirmation(){
+            
+        }
+        public function activate($token){
+            $token = explode('-',$token);
+            	
 
+            $user = $this->User->find('first', array(
+                    'conditions' => array('id' => $token[0], 'User.password' => $token[1],
+                    'active' => 0)
+
+                ));
+            if(!empty($user)){
+                $this->User->id = $user['User']['id'];
+                $this->User->saveField('active', 1);
+                $this->Session->setFlash("Votre compte a bien ete active","flash_success");
+                $this->Auth->login($users['User']);
+               
+            }else{
+               
+                 $this->Session->setFlash("Ce lien d'activation n'est pas valide", "flash_fail",
+                         array('type'=>'error'));
+            }
+           
+            $this->redirect('/');
+            die();
+        }
 }
 
 ?>

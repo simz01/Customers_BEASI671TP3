@@ -12,8 +12,8 @@ class PaymentInformationsController extends AppController {
  * Components
  *
  * @var array
- */
-	public $components = array('Paginator');
+ */     public $helpers = array('Js');
+	public $components = array('Paginator', 'RequestHandler');
 
 /**
  * index method
@@ -65,8 +65,23 @@ class PaymentInformationsController extends AppController {
 			}
 		}
 		$customers = $this->PaymentInformation->Customer->find('list');
-		$this->set(compact('customers'));
-	}
+		//$this->set(compact('customers'));
+                $categories = $this->PaymentInformation->Subcategory->Category->find('list');
+                 //$subcategories = $this->PaymentInformation->Subcategory->Category->find('list');
+               // 
+               //$categories = $this->PaymentInformation->find('list');
+         // $subcategories = $this->PaymentInformation->Subcategory->find('list');
+        // $subcategories = $this->request->query->PaymentInformation->Subcategory->find('list');
+                       // $subcategories = array('choisir categorie');
+                
+                //$subcategories = $this->PaymentInformation->Subcategory->Category->find('list');
+                       // $subcategories = array('choisir categorie');
+                
+                
+        $this->set(compact('categories', 'subcategories', 'customers'));
+        //$this->set(compact('categories', 'subcategories'));
+    }
+	
 
 /**
  * edit method

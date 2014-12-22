@@ -79,6 +79,15 @@ class PaymentInformation extends AppModel {
  *
  * @var array
  */
+        public $belongsTo = array(
+		'Subcategory' => array(
+			'className' => 'Subcategory',
+			'foreignKey' => 'subcategory_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		)
+	);
 	public $hasAndBelongsToMany = array(
 		'Customer' => array(
 			'className' => 'Customer',

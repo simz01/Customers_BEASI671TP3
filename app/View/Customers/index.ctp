@@ -1,3 +1,4 @@
+
 <div class="customers index">
 	<h2><?php echo __('Customers'); ?></h2>
 	<table cellpadding="10" cellspacing="5" class="table table-bordered">
@@ -46,3 +47,5 @@
 		<li><?php echo $this->Html->link(__('New Customer'), array('action' => 'add')); ?></li>
 	</ul>
 </div>
+
+
